@@ -1,0 +1,134 @@
+.projects {
+    background-color: #2E2E2E;
+    color: #EAEAEA;
+    padding: 80px 20px; /* Adjusted padding for better fit */
+    text-align: center;
+    box-sizing: border-box; /* Ensure padding is included in element's total width and height */
+  }
+  
+  .projects-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px; /* Added padding for better spacing */
+  }
+  
+  .projects h2 {
+    font-size: 2.5rem;
+    color: #FFD700;
+    margin-bottom: 20px;
+  }
+  
+  .projects p {
+    font-size: 1.2rem;
+    color: #F5F5F5;
+    line-height: 1.6;
+    margin-bottom: 40px;
+  }
+  
+  .projects-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px; /* Added gap to handle spacing between items */
+  }
+  
+  .project-box {
+    background-color: #1C1C1C;
+    border: 2px solid #FF6F61;
+    border-radius: 10px;
+    padding: 20px;
+    width: 250px;
+    margin: 10px;
+    text-align: center;
+    transition: transform 0.4s, box-shadow 0.4s;
+  }
+  
+  .project-box:hover {
+    transform: scale(1.1); /* Increased scale */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.6); /* Added shadow effect */
+  }
+  
+  .project-box h3 {
+    font-size: 1.5rem;
+    color: #FFD700;
+    margin-bottom: 10px;
+  }
+  
+  .project-box p {
+    font-size: 1rem;
+    color: #EAEAEA;
+    margin-bottom: 20px;
+  }
+  
+  .project-links {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .project-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8px 15px; /* Smaller padding */
+    border-radius: 4px; /* Slightly smaller border-radius */
+    font-size: 0.9rem; /* Smaller font size */
+    text-decoration: none;
+    color: #EAEAEA;
+    transition: background-color 0.3s, transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .github-btn {
+    background-color: #333;
+    border: 2px solid #FFD700;
+  }
+  
+  .github-btn:hover {
+    background-color: #FFD700;
+    color: #1C1C1C;
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+  }
+  
+  .deploy-btn {
+    background-color: #28a745; /* Updated color for Deploy button */
+    border: 2px solid #28a745;
+  }
+  
+  .deploy-btn:hover {
+    background-color: #FFD700;
+    color: #1C1C1C;
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+  }
+  
+  .project-btn .icon {
+    margin-right: 8px;
+  }
+  
+  /* Responsive Styles */
+  @media screen and (max-width: 768px) {
+    .projects {
+      padding: 80px 20px; /* Adjusted padding for smaller screens */
+    }
+  
+    .projects h2 {
+      font-size: 2rem;
+      margin-bottom: 15px; /* Adjusted margin */
+    }
+  
+    .projects p {
+      font-size: 1rem;
+      margin-bottom: 30px; /* Adjusted margin */
+    }
+  
+    .projects-list {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .project-box {
+      width: 90%; /* Adjusted width for better fit */
+      margin: 10px 0;
+    }
+  }
