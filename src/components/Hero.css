@@ -41,7 +41,6 @@
   color: #FF6F61;
 }
 
-
 .resume-btn {
   display: inline-flex;
   align-items: center;
@@ -65,7 +64,6 @@
   background-color: #FFD700;
   color: #1C1C1C;
 }
-
 
 .hero-image {
   position: relative;
@@ -93,6 +91,7 @@
 
   .hero-content {
     max-width: 100%;
+    margin-bottom: 20px;
   }
 
   .hero h1 {
@@ -113,8 +112,24 @@
   }
 
   .hero-image {
-    width: 250px;
-    height: 250px;
+    width: 300px; 
+    height: 300px;
     margin-top: 30px;
+    flex-shrink: 0; 
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .hero h1 {
+    font-size: 2rem; 
+  }
+
+  .hero p {
+    font-size: 1rem; 
+  }
+
+  .hero-image {
+    width: 280px; 
+    height: 280px;
   }
 }
