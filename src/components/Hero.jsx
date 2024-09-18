@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
 import './Hero.css';
 import { FaLinkedin, FaGithub, FaDownload, FaEnvelope } from 'react-icons/fa';
-import profileImage from '../assets/profile.png'; // if the file is .png, for example
+import profileImage from '../assets/profile.png';
 
 
 const typingSpeed = 50;
@@ -18,7 +18,7 @@ const Hero = () => {
       setDisplayedText(fullText.slice(0, index));
       index += 1;
       if (index > fullText.length) {
-        clearInterval(interval); 
+        clearInterval(interval);
       }
     }, typingSpeed);
 
@@ -27,10 +27,10 @@ const Hero = () => {
 
   return (
     <div className="hero">
-      <motion.div 
+      <motion.div
         className="hero-content"
-        initial={{ opacity: 0, x: -100 }} 
-        animate={{ opacity: 1, x: 0 }} 
+        initial={{ opacity: 0, x: -100 }}
+        animate={{ opacity: 1, x: 0 }}
         transition={{ duration: 1.2 }}
       >
         <h1>Hello, I'm Ankit</h1>
@@ -47,9 +47,9 @@ const Hero = () => {
             <FaEnvelope className="icon" />
           </a>
         </div>
-        <motion.a 
+        <motion.a
           className="resume-btn"
-          href="/resume.pdf" 
+          href="/resume.pdf"
           download
           whileHover={{ scale: 1.1, backgroundColor: "#FFD700", color: "#1C1C1C" }}
           transition={{ duration: 0.3 }}
@@ -58,13 +58,13 @@ const Hero = () => {
         </motion.a>
       </motion.div>
 
-      <motion.div 
+      <motion.div
         className="hero-image"
-        initial={{ opacity: 0, scale: 0.8 }} 
-        animate={{ opacity: 1, scale: 1 }} 
+        initial={{ opacity: 0, scale: 0.8 }}
+        animate={{ opacity: 1, scale: 1 }}
         transition={{ duration: 1.2 }}
       >
-        {/* Replace the placeholder div with an image tag */}
+
         <img src={profileImage} alt="Ankit's Profile" className="profile-photo" />
       </motion.div>
     </div>

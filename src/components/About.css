@@ -1,0 +1,40 @@
+.about {
+    background-color: #2E2E2E;
+    color: #EAEAEA;
+    padding: 110px 50px;
+    text-align: center;
+}
+
+.about-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.about h2 {
+    font-size: 2.5rem;
+    color: #FFD700;
+    margin-bottom: 20px;
+}
+
+.about p {
+    font-size: 1.2rem;
+    color: #F5F5F5;
+    line-height: 1.6;
+    margin-bottom: 40px;
+    text-align: justify;
+}
+
+/* Responsive Styles */
+@media screen and (max-width: 768px) {
+    .about {
+        padding: 80px 20px;
+    }
+
+    .about h2 {
+        font-size: 2rem;
+    }
+
+    .about p {
+        font-size: 1rem;
+    }
+}
