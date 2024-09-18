@@ -23,7 +23,7 @@ const Hero = () => {
     }, typingSpeed);
 
     return () => clearInterval(interval);
-  }, []);
+  }, [fullText]);
 
   return (
     <div className="hero">
@@ -49,7 +49,7 @@ const Hero = () => {
             <FaEnvelope className="icon" />
           </a>
         </div>
-      
+    
         <motion.a 
           className="resume-btn"
           href={resumePDF} 
@@ -74,5 +74,3 @@ const Hero = () => {
 };
 
 export default Hero;
-
-
