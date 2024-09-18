@@ -15,7 +15,7 @@ const Skills = () => {
     { name: 'Node.js', icon: <FaNodeJs /> },
     { name: 'Express.js', icon: <FaCode /> },
     { name: 'MongoDB', icon: <DiMongodb /> },
-    { name: 'Mongoose', icon: <FaCode /> },  // Use appropriate icon
+    { name: 'Mongoose', icon: <FaCode /> }, 
     { name: 'Git', icon: <FaGitAlt /> },
   ];
 
