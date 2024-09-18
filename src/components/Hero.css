@@ -1,0 +1,121 @@
+.hero {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 80px 50px;
+    background-color: #1C1C1C;
+    color: #EAEAEA;
+    height: 90vh;
+  }
+  
+  .hero-content {
+    max-width: 60%; /* Adjusted to give more space for the image */
+  }
+  
+  .hero h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #FFD700;
+    margin-bottom: 20px;
+  }
+  
+  .hero p {
+    font-size: 1.3rem;
+    color: #F5F5F5;
+    margin-bottom: 20px;
+  }
+  
+  .social-links {
+    margin-bottom: 20px;
+  }
+  
+  .social-links a {
+    margin-right: 20px;
+    font-size: 2rem;
+    color: #FFD700;
+    transition: color 0.3s;
+  }
+  
+  .social-links a:hover {
+    color: #FF6F61;
+  }
+  
+  /* Resume Button */
+  .resume-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #FF6F61;
+    color: #EAEAEA;
+    padding: 15px 35px;
+    border: none;
+    border-radius: 50px;
+    font-size: 1.2rem;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+  }
+  
+  .resume-btn .icon {
+    margin-right: 8px;
+  }
+  
+  .resume-btn:hover {
+    background-color: #FFD700;
+    color: #1C1C1C;
+  }
+  
+  /* Profile Picture Styling */
+  .hero-image {
+    position: relative;
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    overflow: hidden; /* Ensures the image fits within the circle */
+    border: 5px solid #FF6F61;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3); /* Optional shadow for effect */
+  }
+  
+  .hero-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensures the image is cropped appropriately */
+  }
+  
+  /* Responsive Styles */
+  @media screen and (max-width: 768px) {
+    .hero {
+      flex-direction: column;
+      text-align: center;
+      padding: 90px 20px;
+    }
+  
+    .hero-content {
+      max-width: 100%;
+    }
+  
+    .hero h1 {
+      font-size: 2.5rem;
+    }
+  
+    .hero p {
+      font-size: 1.1rem;
+    }
+  
+    .social-links {
+      margin-bottom: 15px;
+    }
+  
+    .resume-btn {
+      padding: 12px 25px;
+      font-size: 1rem;
+    }
+  
+    .hero-image {
+      width: 250px;
+      height: 250px;
+      margin-top: 30px;
+    }
+}
+  
