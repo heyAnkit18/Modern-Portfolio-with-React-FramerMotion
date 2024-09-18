@@ -2,10 +2,10 @@ import React, { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
 import './Hero.css';
 import { FaLinkedin, FaGithub, FaDownload, FaEnvelope } from 'react-icons/fa';
-import profileImage from '../assets/profile.png'; // Ensure the image path is correct
-import resumePDF from '../assets/resume.pdf'; // Import your resume PDF
+import profileImage from '../assets/profile.png'; 
+import resumePDF from '../assets/resume.pdf'; 
 
-// Typing effect speed in milliseconds
+
 const typingSpeed = 50;
 
 const Hero = () => {
@@ -49,10 +49,10 @@ const Hero = () => {
             <FaEnvelope className="icon" />
           </a>
         </div>
-        {/* Resume Download Button */}
+      
         <motion.a 
           className="resume-btn"
-          href={resumePDF} // Reference the imported resume PDF
+          href={resumePDF} 
           download="Ankit_Kumar_Resume.pdf"
           whileHover={{ scale: 1.1, backgroundColor: "#FFD700", color: "#1C1C1C" }}
           transition={{ duration: 0.3 }}

@@ -1,0 +1,54 @@
+.education-section {
+    background-color: #000;
+    color: #EAEAEA;
+    padding: 80px 20px;
+    text-align: center;
+  }
+  
+  .education-section h2 {
+    font-size: 2.5rem;
+    color: #FFD700;
+    margin-bottom: 40px;
+  }
+  
+  .education-item {
+    background-color: #1C1C1C;
+    border: 2px solid #FF6F61;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px auto;
+    text-align: center;
+    max-width: 800px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  }
+  
+  .education-item h3 {
+    font-size: 1.5rem;
+    color: #FFD700;
+    margin-bottom: 15px;
+  }
+  
+  .education-item p {
+    font-size: 1rem;
+    color: #EAEAEA;
+    margin-bottom: 10px;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .education-section {
+      padding: 50px 20px;
+    }
+  
+    .education-section h2 {
+      font-size: 2rem;
+    }
+  
+    .education-item {
+      margin: 10px 0;
+      padding: 15px;
+    }
+  
+    .education-item h3 {
+      font-size: 1.3rem;
+    }
+  }

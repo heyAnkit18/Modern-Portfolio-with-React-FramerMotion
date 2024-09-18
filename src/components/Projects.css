@@ -1,15 +1,15 @@
 .projects {
     background-color: #2E2E2E;
     color: #EAEAEA;
-    padding: 80px 20px; /* Adjusted padding for better fit */
+    padding: 80px 20px;
     text-align: center;
-    box-sizing: border-box; /* Ensure padding is included in element's total width and height */
+    box-sizing: border-box; 
   }
   
   .projects-content {
     max-width: 1200px;
     margin: 0 auto;
-    padding: 0 20px; /* Added padding for better spacing */
+    padding: 0 20px; 
   }
   
   .projects h2 {
@@ -29,7 +29,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    gap: 20px; /* Added gap to handle spacing between items */
+    gap: 20px; 
   }
   
   .project-box {
@@ -44,8 +44,8 @@
   }
   
   .project-box:hover {
-    transform: scale(1.1); /* Increased scale */
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.6); /* Added shadow effect */
+    transform: scale(1.1); 
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.6); 
   }
   
   .project-box h3 {
@@ -70,9 +70,9 @@
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    padding: 8px 15px; /* Smaller padding */
-    border-radius: 4px; /* Slightly smaller border-radius */
-    font-size: 0.9rem; /* Smaller font size */
+    padding: 8px 15px; 
+    border-radius: 4px; 
+    font-size: 0.9rem;
     text-decoration: none;
     color: #EAEAEA;
     transition: background-color 0.3s, transform 0.3s, box-shadow 0.3s;
@@ -91,7 +91,7 @@
   }
   
   .deploy-btn {
-    background-color: #28a745; /* Updated color for Deploy button */
+    background-color: #28a745; 
     border: 2px solid #28a745;
   }
   
@@ -109,17 +109,17 @@
   /* Responsive Styles */
   @media screen and (max-width: 768px) {
     .projects {
-      padding: 80px 20px; /* Adjusted padding for smaller screens */
+      padding: 80px 20px; 
     }
   
     .projects h2 {
       font-size: 2rem;
-      margin-bottom: 15px; /* Adjusted margin */
+      margin-bottom: 15px;
     }
   
     .projects p {
       font-size: 1rem;
-      margin-bottom: 30px; /* Adjusted margin */
+      margin-bottom: 30px;
     }
   
     .projects-list {
@@ -128,7 +128,7 @@
     }
   
     .project-box {
-      width: 90%; /* Adjusted width for better fit */
+      width: 90%;
       margin: 10px 0;
     }
   }
