@@ -4,7 +4,7 @@ import './Education.css';
 
 const Education = () => {
   return (
-    <div className="education-section">
+    <div id="education" className="education-section">
       <motion.h2
         initial={{ opacity: 0, y: -50 }}
         animate={{ opacity: 1, y: 0 }}
@@ -12,7 +12,6 @@ const Education = () => {
       >
         Education & Internship
       </motion.h2>
-
 
       <motion.div
         className="education-item"
@@ -26,7 +25,6 @@ const Education = () => {
         <p>8-months hands-on experience in full stack development, including MERN stack projects.</p>
       </motion.div>
 
-      
       <motion.div
         className="education-item"
         initial={{ opacity: 0, y: 50 }}
@@ -38,7 +36,6 @@ const Education = () => {
         <p>Graduated in 2020 with a focus on software development, algorithms, and database management.</p>
       </motion.div>
 
-      
       <motion.div
         className="education-item"
         initial={{ opacity: 0, y: 50 }}
@@ -50,7 +47,6 @@ const Education = () => {
         <p>Completed in 2016 with a science focus (Physics, Chemistry, Mathematics).</p>
       </motion.div>
 
-     
       <motion.div
         className="education-item"
         initial={{ opacity: 0, y: 50 }}
