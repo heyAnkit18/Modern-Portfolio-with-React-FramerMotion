@@ -23,6 +23,7 @@ const Education = () => {
         <p><strong>10X Academy, Hyderabad</strong></p>
         <p>Full Stack Development Bootcamp</p>
         <p>8-months hands-on experience in full stack development, including MERN stack projects.</p>
+        <p>Developed several projects with modern technologies and methodologies.</p>
       </motion.div>
 
       <motion.div
@@ -33,7 +34,7 @@ const Education = () => {
       >
         <h3>B.Tech - Computer Science & Engineering</h3>
         <p><strong>ABES Engineering College</strong></p>
-        <p>Graduated in 2020 with a focus on software development, algorithms, and database management.</p>
+        <p>Focus on software development, algorithms, and database management.</p>
       </motion.div>
 
       <motion.div
@@ -44,7 +45,7 @@ const Education = () => {
       >
         <h3>12th Standard</h3>
         <p><strong>SIG INT College</strong></p>
-        <p>Completed in 2016 with a science focus (Physics, Chemistry, Mathematics).</p>
+        <p>Specialized in Science with a focus on Physics, Chemistry, and Mathematics.</p>
       </motion.div>
 
       <motion.div
@@ -55,7 +56,7 @@ const Education = () => {
       >
         <h3>10th Standard</h3>
         <p><strong>Modern Academy</strong></p>
-        <p>Completed in 2014 with strong academic performance.</p>
+        <p>Achieved strong academic performance with a broad knowledge base.</p>
       </motion.div>
     </div>
   );
