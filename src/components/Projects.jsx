@@ -5,21 +5,23 @@ import { FaGithub, FaExternalLinkAlt } from 'react-icons/fa';
 const projects = [
   {
     title: 'Video Sharing Platform',
-    description: 'A dynamic platform for uploading and sharing videos, featuring user authentication and video management.',
-    github: 'https://github.com/your-repo/video-sharing-platform',
-    deploy: 'https://your-deployment-url.com/video-sharing-platform'
+    description: 'A dynamic platform for uploading and sharing videos, featuring user authentication and video management. It also includes advanced search functionality and responsive design for an enhanced user experience.',
+    frontendGithub: 'https://github.com/heyAnkit18/Video-Sharing-Platform-Frontend',
+    backendGithub: 'https://github.com/heyAnkit18/Video-Sharing-Platform-Backend',
+    deploy: 'https://video-sharing-platform-mq45.onrender.com/'
   },
   {
-    title: 'University Portal',
-    description: 'A comprehensive portal for university management with features for students, faculty, and administration.',
-    github: 'https://github.com/your-repo/university-portal',
-    deploy: 'https://your-deployment-url.com/university-portal'
+    title: 'University Education Portal',
+    description: 'The University Education Portal is a modern and responsive web application designed to showcase and provide information about Vedanta Engineering University.',
+    github: 'https://github.com/heyAnkit18/University-Education-Portal-REACT',
+    deploy: 'https://universityportalankit.netlify.app/'
   },
   {
     title: 'Event Booking Application',
-    description: 'An application for booking events with a user-friendly interface and comprehensive event management features.',
-    github: 'https://github.com/your-repo/event-booking-app',
-    deploy: 'https://your-deployment-url.com/event-booking-app'
+    description: 'An application for booking events with a user-friendly interface and comprehensive event management features. It also offers an intuitive layout and easy navigation for a seamless booking experience.',
+    frontendGithub: 'https://github.com/heyAnkit18/Event_Booking_Application-Frontend',
+    backendGithub: 'https://github.com/heyAnkit18/Event_Booking_Application-Backend-',
+    deploy: 'https://event-booking-application.netlify.app/'
   },
 ];
 
@@ -37,22 +39,46 @@ const Projects = () => {
               <h3>{project.title}</h3>
               <p>{project.description}</p>
               <div className="project-links">
-                <a 
-                  href={project.github} 
-                  target="_blank" 
-                  rel="noopener noreferrer" 
-                  className="project-btn github-btn"
-                >
-                  <FaGithub className="icon" /> GitHub
-                </a>
-                <a 
-                  href={project.deploy} 
-                  target="_blank" 
-                  rel="noopener noreferrer" 
-                  className="project-btn deploy-btn"
-                >
-                  <FaExternalLinkAlt className="icon" /> Deploy
-                </a>
+                {project.frontendGithub && (
+                  <a 
+                    href={project.frontendGithub} 
+                    target="_blank" 
+                    rel="noopener noreferrer" 
+                    className="project-btn github-btn"
+                  >
+                    <FaGithub className="icon" /> Frontend
+                  </a>
+                )}
+                {project.backendGithub && (
+                  <a 
+                    href={project.backendGithub} 
+                    target="_blank" 
+                    rel="noopener noreferrer" 
+                    className="project-btn github-btn"
+                  >
+                    <FaGithub className="icon" /> Backend
+                  </a>
+                )}
+                {project.github && (
+                  <a 
+                    href={project.github} 
+                    target="_blank" 
+                    rel="noopener noreferrer" 
+                    className="project-btn github-btn"
+                  >
+                    <FaGithub className="icon" /> GitHub
+                  </a>
+                )}
+                {project.deploy && (
+                  <a 
+                    href={project.deploy} 
+                    target="_blank" 
+                    rel="noopener noreferrer" 
+                    className="project-btn deploy-btn"
+                  >
+                    <FaExternalLinkAlt className="icon" /> Deploy
+                  </a>
+                )}
               </div>
             </div>
           ))}
