@@ -102,38 +102,3 @@
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
 }
 
-.project-btn .icon {
-  margin-right: 3px;
-}
-
-/* Responsive Styles */
-@media screen and (max-width: 768px) {
-  .projects {
-    padding: 80px 20px; 
-  }
-
-  .projects h2 {
-    font-size: 2rem;
-    margin-bottom: 15px;
-  }
-
-  .projects p {
-    font-size: 1rem;
-    margin-bottom: 30px;
-  }
-
-  .projects-list {
-    flex-direction: column;
-    align-items: center; 
-  }
-
-  .project-box {
-    width: 90%; 
-    max-width: 400px; 
-    margin: 10px 0; 
-  }
-
-  .project-links {
-    gap: 10px; 
-  }
-}
