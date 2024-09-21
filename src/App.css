@@ -14,3 +14,25 @@ html, body {
   flex-direction: column;
 }
 
+/* Responsive Design */
+@media (max-width: 768px) {
+  body {
+    font-size: 14px; 
+  }
+
+  .App {
+    flex-direction: column; 
+    padding: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  body {
+    font-size: 12px; 
+  }
+
+  .App {
+    padding: 15px; 
+  }
+}
+
