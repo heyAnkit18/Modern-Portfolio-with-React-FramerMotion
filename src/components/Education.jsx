@@ -23,7 +23,6 @@ const Education = () => {
         <p><strong>10X Academy, Hyderabad</strong></p>
         <p>Full Stack Development Bootcamp</p>
         <p>8-months hands-on experience in full stack development, including MERN stack projects.</p>
-        <p>Developed several projects with modern technologies and methodologies.</p>
       </motion.div>
 
       <motion.div
