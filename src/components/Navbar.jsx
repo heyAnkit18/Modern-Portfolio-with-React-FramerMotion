@@ -24,6 +24,7 @@ const Navbar = () => {
           <li><Link to="projects" smooth={true} duration={500} onClick={() => setIsOpen(false)}>Projects</Link></li>
           <li><Link to="education" smooth={true} duration={500} onClick={() => setIsOpen(false)}>Education</Link></li>
           <li><Link to="contact" smooth={true} duration={500} onClick={() => setIsOpen(false)}>Contact</Link></li>
+          <li><Link to="footer" smooth={true} duration={500} onClick={() => setIsOpen(false)}>Footer</Link></li>
         </ul>
       </div>
     </nav>
