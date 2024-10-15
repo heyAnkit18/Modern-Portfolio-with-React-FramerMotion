@@ -4,17 +4,23 @@ import { FaGithub, FaExternalLinkAlt } from 'react-icons/fa';
 
 const projects = [
   {
+    title: 'University Education Portal',
+    description: 'The University Education Portal is a modern and responsive web application designed to showcase and provide information about Vedanta Engineering University. This project features a user-friendly interface with various sections.',
+    github: 'https://github.com/heyAnkit18/University-Education-Portal-REACT',
+    deploy: 'https://universityportalankit.netlify.app/'
+  },
+  {
+    title: 'Restaurant Website',
+    description: 'The Restaurant Project is a modern web application showcasing a fictional restaurant menu and customer reviews. It features an elegant, categorized menu for easy navigation and a dedicated user reviews section to foster community engagement',
+    github: 'https://github.com/heyAnkit18/Restaurant-Website-REACT-FRAMER-MOTION',
+    deploy: 'https://restaurantpunjabitadka.netlify.app/'
+  },
+  {
     title: 'Video Sharing Platform',
     description: 'A dynamic platform for uploading and sharing videos, featuring user authentication and video management. It also includes advanced search functionality and responsive design for an enhanced user experience.',
     frontendGithub: 'https://github.com/heyAnkit18/Video-Sharing-Platform-Frontend',
     backendGithub: 'https://github.com/heyAnkit18/Video-Sharing-Platform-Backend',
     deploy: 'https://video-sharing-platform-mq45.onrender.com/'
-  },
-  {
-    title: 'University Education Portal',
-    description: 'The University Education Portal is a modern and responsive web application designed to showcase and provide information about Vedanta Engineering University.',
-    github: 'https://github.com/heyAnkit18/University-Education-Portal-REACT',
-    deploy: 'https://universityportalankit.netlify.app/'
   },
   {
     title: 'Event Booking Application',
@@ -23,6 +29,7 @@ const projects = [
     backendGithub: 'https://github.com/heyAnkit18/Event_Booking_Application-Backend-',
     deploy: 'https://event-booking-application.netlify.app/'
   },
+  
 ];
 
 const Projects = () => {
