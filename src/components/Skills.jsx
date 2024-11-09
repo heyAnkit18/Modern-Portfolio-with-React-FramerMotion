@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaCode, FaHtml5, FaCss3Alt, FaJs, FaReact, FaGitAlt, FaNodeJs } from 'react-icons/fa';
+import { FaCode, FaHtml5, FaCss3Alt, FaJs, FaReact, FaGitAlt, FaNodeJs, FaNetworkWired } from 'react-icons/fa';
 import { DiMongodb } from 'react-icons/di';
 import { SiRedux, SiFirebase } from 'react-icons/si';
 import './Skills.css';
@@ -18,6 +18,7 @@ const Skills = () => {
     { name: 'Mongoose', icon: <FaCode /> },
     { name: 'Git', icon: <FaGitAlt /> },
     { name: 'Firebase', icon: <SiFirebase /> },
+    { name: 'RESTful APIs', icon: <FaNetworkWired /> },
   ];
 
   return (
