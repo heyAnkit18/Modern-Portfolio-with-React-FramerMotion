@@ -16,6 +16,12 @@ const projects = [
     deploy: 'https://restaurantpunjabitadka.netlify.app/'
   },
   {
+    title: 'Virtual Reality Application',
+    description: 'The Virtual Reality Project built with React and Tailwind CSS is a web application offering developers tools and resources for VR development. It features a responsive design, interactive components, smooth animations, and a modern UI for an immersive user experience.',
+    github: 'https://github.com/heyAnkit18/VirtualReality-Website-REACT-TAILWIND',
+    deploy: 'https://stunning-meerkat-de86a1.netlify.app/'
+  },
+  {
     title: 'Video Sharing Platform',
     description: 'A dynamic platform for uploading and sharing videos, featuring user authentication and video management. It also includes advanced search functionality and responsive design for an enhanced user experience.',
     frontendGithub: 'https://github.com/heyAnkit18/Video-Sharing-Platform-Frontend',
