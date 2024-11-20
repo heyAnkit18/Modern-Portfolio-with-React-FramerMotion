@@ -10,6 +10,7 @@ const Skills = () => {
     { name: 'JavaScript', icon: <FaJs /> },
     { name: 'HTML', icon: <FaHtml5 /> },
     { name: 'CSS', icon: <FaCss3Alt /> },
+    { name: 'Tailwind CSS', icon: <FaCss3Alt /> },
     { name: 'React.js', icon: <FaReact /> },
     { name: 'Redux Toolkit', icon: <SiRedux /> },
     { name: 'Node.js', icon: <FaNodeJs /> },
