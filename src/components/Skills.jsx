@@ -4,6 +4,7 @@ import { DiMongodb } from 'react-icons/di';
 import { SiRedux, SiFirebase } from 'react-icons/si';
 import './Skills.css';
 
+
 const Skills = () => {
   const skills = [
     { name: 'Data Structure', icon: <FaCode /> },
