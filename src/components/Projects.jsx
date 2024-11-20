@@ -10,7 +10,7 @@ const projects = [
     deploy: 'https://universityportalankit.netlify.app/'
   },
   {
-    title: 'Restaurant Website',
+    title: 'Restaurant Menu Website',
     description: 'The Restaurant Project is a modern web application showcasing a fictional restaurant menu and customer reviews. It features an elegant, categorized menu for easy navigation and a dedicated user reviews section to foster community engagement',
     github: 'https://github.com/heyAnkit18/Restaurant-Website-REACT-FRAMER-MOTION',
     deploy: 'https://restaurantpunjabitadka.netlify.app/'
