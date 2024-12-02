@@ -31,9 +31,9 @@ const projects = [
   {
     title: 'Event Booking Application',
     description: 'An application for booking events with a user-friendly interface and comprehensive event management features. It also offers an intuitive layout and easy navigation for a seamless booking experience.',
-    frontendGithub: 'https://github.com/heyAnkit18/Event_Booking_Application-Frontend',
-    backendGithub: 'https://github.com/heyAnkit18/Event_Booking_Application-Backend-',
-    deploy: 'https://event-booking-application.netlify.app/'
+    frontendGithub: 'https://github.com/heyAnkit18/Event_Booking_Application_Frontend',
+    backendGithub: 'https://github.com/heyAnkit18/Event_Booking_Application_Backend',
+    deploy: 'https://momentflow.netlify.app/'
   },
   
 ];
