@@ -80,23 +80,23 @@
 
 .github-btn {
   background-color: #333;
-  border: 2px solid #FFD700;
+  border: 2px solid #1597f5;
 }
 
 .github-btn:hover {
-  background-color: #FFD700;
+  background-color: #1c8ddd;
   color: #1C1C1C;
   transform: scale(1.05);
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
 }
 
 .deploy-btn {
-  background-color: #28a745; 
-  border: 2px solid #28a745;
+  background-color: #333; 
+  border: 2px solid #1cc922;
 }
 
 .deploy-btn:hover {
-  background-color: #FFD700;
+  background-color: #1cc922;
   color: #1C1C1C;
   transform: scale(1.05);
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
