@@ -1,7 +1,7 @@
 import React from 'react';
 import { FaEnvelope, FaPhone, FaLinkedin } from 'react-icons/fa';
 import './Contact.css';
-import resumePDF from '../assets/resume.pdf'; 
+import resumePDF from '../assets/resume.pdf';
 
 const Contact = () => {
   return (
@@ -27,14 +27,15 @@ const Contact = () => {
             <FaLinkedin className="contact-icon" />
             <div className="contact-info">
               <span className="contact-label">LinkedIn:</span>
-              <a href="https://www.linkedin.com/in/your-linkedin-profile" target="_blank" rel="noopener noreferrer" className="contact-link">View Profile</a>
+              <a
+                href="https://www.linkedin.com/in/ankit-kumar-949090261/" target="_blank" rel="noopener noreferrer" className="contact-link">View Profile</a>
             </div>
           </div>
         </div>
-       
-        <a 
+
+        <a
           href={resumePDF}
-          download="Ankit_Kumar_Resume.pdf" 
+          download="Ankit_Kumar_Resume.pdf"
           className="resume-button"
         >
           Download Resume
