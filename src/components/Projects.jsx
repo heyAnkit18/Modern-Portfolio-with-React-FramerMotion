@@ -4,6 +4,12 @@ import { FaGithub, FaExternalLinkAlt } from 'react-icons/fa';
 
 const projects = [
   {
+    title: 'E-commerce-website',
+    description: 'This is a frontend E-commerce project built using React and external CSS for styling. The application includes essential functionalities such as a search bar, product listing cards with add and remove features, and dynamic product fetching from APIs. It also integrates payment functionality for a seamless shopping experience.',
+    github: 'https://github.com/heyAnkit18/E-commerce-website',
+    deploy: 'shopsphereecomm.netlify.app/'
+  },
+  {
     title: 'University Education Portal',
     description: 'The University Education Portal is a modern and responsive web application designed to showcase and provide information about Vedanta Engineering University. This project features a user-friendly interface with various sections.',
     github: 'https://github.com/heyAnkit18/University-Education-Portal-REACT',
