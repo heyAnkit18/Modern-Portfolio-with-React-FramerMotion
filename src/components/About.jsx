@@ -7,23 +7,10 @@ const About = () => {
       <div className="about-content">
         <h2>About Me</h2>
         <p>
-          I am a dedicated Full Stack Developer specializing in the MERN stack
-          (MongoDB, Express.js, React, Node.js) and TypeScript, with a strong
-          focus on creating intuitive, scalable, and high-performance web
-          applications. My portfolio includes impactful projects such as a Video
-          Sharing Platform, University Portal, and a Restaurant Menu Website,
-          each showcasing my ability to deliver seamless user experiences and
-          robust backend functionality. During my 8-month internship at 10X
-          Academy in Hyderabad, I refined my skills in building efficient and
-          innovative solutions that address real-world challenges.
+          I’m a Full Stack Developer with hands-on experience in the MERN stack and TypeScript. I worked as a Full Stack Developer at <strong>zipaworld innovation pvt ltd</strong> for 3+ months, contributing to real-time features and scalable applications. Prior to that, I completed a 6-month internship at <strong>10X Academy, Hyderabad</strong>, where I built real-world, high-performance web solutions.
         </p>
         <p>
-          I am committed to continuous learning and staying ahead of industry
-          trends by exploring new tools, frameworks, and technologies. My goal
-          is to deliver future-proof applications that not only meet user needs
-          but also drive business growth. With a collaborative mindset and a
-          keen eye for detail, I thrive in team environments, working to create
-          cutting-edge solutions that leave a lasting impact.
+          My portfolio includes a Video Sharing Platform, E-commerce website,University Education Portal and Restaurant Menu Website. I'm a fast learner, team player, and passionate about creating impactful digital experiences.
         </p>
       </div>
     </section>
@@ -31,3 +18,6 @@ const About = () => {
 };
 
 export default About;
+
+
+

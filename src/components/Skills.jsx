@@ -1,9 +1,17 @@
 import React from 'react';
-import { FaCode, FaHtml5, FaCss3Alt, FaJs, FaReact, FaGitAlt, FaNodeJs, FaNetworkWired } from 'react-icons/fa';
+import {
+  FaCode,
+  FaHtml5,
+  FaCss3Alt,
+  FaJs,
+  FaReact,
+  FaGitAlt,
+  FaNodeJs,
+  FaNetworkWired
+} from 'react-icons/fa';
 import { DiMongodb } from 'react-icons/di';
-import { SiRedux, SiFirebase } from 'react-icons/si';
+import { SiRedux } from 'react-icons/si';
 import './Skills.css';
-
 
 const Skills = () => {
   const skills = [
@@ -18,8 +26,9 @@ const Skills = () => {
     { name: 'Express.js', icon: <FaCode /> },
     { name: 'MongoDB', icon: <DiMongodb /> },
     { name: 'Mongoose', icon: <FaCode /> },
+    { name: 'PostgreSQL', icon: <FaCode /> },
+    { name: 'Sequelize ORM', icon: <FaCode /> },
     { name: 'Git', icon: <FaGitAlt /> },
-    { name: 'Firebase', icon: <SiFirebase /> },
     { name: 'RESTful APIs', icon: <FaNetworkWired /> },
   ];
 
