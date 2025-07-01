@@ -39,13 +39,13 @@ const Hero = () => {
         </p>
         <p>{displayedText}</p>
         <div className="social-links">
-          <a href="https://github.com/heyAnkit18" target="_blank" rel="noopener noreferrer">
+          <a href="https://github.com/heyAnkit1806" target="_blank" rel="noopener noreferrer">
             <FaGithub className="icon" />
           </a>
           <a href="https://www.linkedin.com/in/ankit-kumar-949090261/" target="_blank" rel="noopener noreferrer">
             <FaLinkedin className="icon" />
           </a>
-          <a href="mailto:ankitkumarjune18@gmail.com" target="_blank" rel="noopener noreferrer">
+          <a href="mailto:ankitkumar1806.in@gmail.com" target="_blank" rel="noopener noreferrer">
             <FaEnvelope className="icon" />
           </a>
         </div>

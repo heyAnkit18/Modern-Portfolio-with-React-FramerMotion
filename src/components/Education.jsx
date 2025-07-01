@@ -10,7 +10,7 @@ const Education = () => {
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 1 }}
       >
-        Education & Work Experience
+        Work Experience & Education
       </motion.h2>
 
       <motion.div
@@ -20,7 +20,7 @@ const Education = () => {
         transition={{ duration: 1, delay: 0.1 }}
       >
         <h3>Full Stack Developer</h3>
-        <p><strong>Zipaworld, Noida</strong></p>
+        <p><strong>Zipaworld innovation pvt ltd, Noida</strong></p>
         <p>Working as a Full Stack Developer since January 2025.</p>
         <p>Involved in designing and developing scalable web applications using React.js, Node.js, MySQL, and RESTful APIs. Contributed to feature enhancements, bug fixing, and deployment processes.</p>
       </motion.div>

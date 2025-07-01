@@ -5,7 +5,7 @@ function Footer() {
   return (
     <footer className="footer">
       <div className="footer-content">
-        <p>&copy; 2024 Ankit. All rights reserved.</p>
+        <p>&copy; 2025 Ankit. All rights reserved.</p>
         <p className="footer-text">
           Full Stack Developer with a passion for building impactful web applications.
           <br />
