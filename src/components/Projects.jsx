@@ -7,7 +7,7 @@ const projects = [
     title: 'E-commerce-website',
     description: 'This is a frontend E-commerce project built using React and external CSS for styling. The application includes essential functionalities such as a search bar, product listing cards with add and remove features, and dynamic product fetching from APIs. It also integrates payment functionality for a seamless shopping experience.',
     github: 'https://github.com/heyAnkit18/E-commerce-website',
-    deploy: 'shopsphereecomm.netlify.app/'
+    deploy: 'https://shopsphereecomm.netlify.app/' // ✅ Updated link
   },
   {
     title: 'University Education Portal',
